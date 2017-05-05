@@ -2,7 +2,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>eu.printingin3d.javascad</groupId>
+	<groupId>cz.berescak</groupId>
 	<artifactId>javascad</artifactId>
 	<version>0.9.0.14</version>
 	<packaging>jar</packaging>
@@ -28,9 +28,9 @@
 	</licenses>
 
 	<scm>
-		<connection>scm:git:git@github.com:printingin3d/javascad.git</connection>
-		<developerConnection>scm:git:git@github.com:printingin3d/javascad.git</developerConnection>
-		<url>git@github.com:printingin3d/javascad.git</url>
+		<connection>scm:git:git@github.com:Solmyrus/javascad.git</connection>
+		<developerConnection>scm:git:git@github.com:Solmyrus/javascad.git</developerConnection>
+		<url>git@github.com:Solmyrus/javascad.git</url>
 	</scm>
 
 	<developers>
@@ -40,18 +40,13 @@
 			<organization>Printing In 3D</organization>
 			<organizationUrl>https://www.printingin3d.eu</organizationUrl>
 		</developer>
+		<developer>
+			<name>Vojta Berescak</name>
+			<email>berescak.v@gmail.com</email>
+		</developer>
 	</developers>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
-		</snapshotRepository>
-		<repository>
-			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-		</repository>
-	</distributionManagement>
+	
 
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
